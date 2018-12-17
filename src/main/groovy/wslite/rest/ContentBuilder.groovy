@@ -123,9 +123,9 @@ class ContentBuilder {
         if (boundary) {
             return contentTypeHeader.mediaType + '; boundary=' + boundary
         }
-        else if (!contentTypeHeader.charset) {
-            return contentTypeHeader.mediaType + '; charset=' + getCharset()
-        }
+//        else if (!contentTypeHeader.charset) {
+//            return contentTypeHeader.mediaType + '; charset=' + getCharset()
+//        }
         return contentTypeHeader.contentType
     }
 
